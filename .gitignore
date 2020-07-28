@@ -2,3 +2,5 @@
 *.swp
 example
 example.stamp
+result
+.envrc
