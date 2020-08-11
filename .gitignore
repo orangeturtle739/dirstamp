@@ -4,3 +4,4 @@ example
 example.stamp
 result
 .envrc
+.direnv
