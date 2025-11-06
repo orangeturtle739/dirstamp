@@ -1,7 +1,7 @@
 {
   description = "A tool for checking to see if directories have changed";
 
-  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-22.05";
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
   inputs.flake-utils.url = "github:numtide/flake-utils";
 
   outputs = { self, nixpkgs, flake-utils }:
@@ -17,7 +17,7 @@
           pname = "dirstamp";
           version = "0.1.0";
           src = self;
-          cargoSha256 = "crJCTXFnlZ0LoKe0FrmDicKdiBGsPzt7NETdsfat0qo=";
+          cargoHash = "sha256-OlfgBfHvrSQudFoNpsH1nta+thseRAKqj0LLyKcRgoU=";
         };
       };
 
